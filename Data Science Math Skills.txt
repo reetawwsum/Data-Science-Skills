@@ -1,0 +1,79 @@
+Data Science Math Skills
+========================
+
+Week 1
+======
+Building Blocks for Problem Solving
+
+a. Sets and What they're good for
+
+Sets basics and vocabulary:
+--------------------------
+
+A Set is a collection of things.
+A Set is made up of elements.
+
+A = {1, 2, -8}
+
+Notation:
+2 ∈ A (2 belongs to A)
+8 ∉ A (8 doesn't belongs to A)
+
+Cardinality:
+Size of a set A is the number of elements in A.
+∣A∣ = 3
+
+A = {1, 2, -3, 7}
+B = {2, 8, -3, 10}
+C = {5, 10}
+
+A ∩ B (A Intersection B) = {2, -3}
+A ∪ B (A Union B) = {1, 2, -3, 7, 8, 10}
+A ∩ C = ∅ (Empty set)
+
+In general:
+A ∩ B = {x: x ∈ A and x ∈ B}
+A ∪ B = {x: x ∈ A or x ∈ B}
+
+Sets: Medical Testing Example:
+-----------------------------
+
+VBS: Very Bad Syndrome
+X = set of people in a clinical trial
+
+S = {x ∈ X: x has VBS}
+H = {x ∈ X: x does not have VBS}
+
+S ∪ H = X
+S ∩ H = ∅
+
+P = {x ∈ X ∣ x test positive for VBS}
+N = {x ∈ X ∣ x test negative for VBS}
+
+P ∪ N = X
+P ∩ N = ∅
+
+S ∩ P = True Positive
+H ∩ N = True Negative
+S ∩ N = False Negative
+H ∩ P = False Positive
+
+∣S∣ / ∣X∣ = Proportion of people in study having VBS
+
+∣H∣ / ∣X∣ = Proportion of people in study without VBS
+
+∣S ∩ P∣ / ∣S∣ = True Positive Rate
+
+∣H ∩ P∣ / ∣H∣ = False Positive Rate
+
+|S ∩ N∣ / ∣S∣ = False Negative Rate
+
+∣H ∩ P∣ / ∣H∣ = False Positive Rate
+
+Sets: Venn Diagrams:
+--------------------
+
+Visualizing Sets
+
+Inclusion-Exclusion Formula:
+∣A ∪ B∣ = ∣A∣ + ∣B∣ - ∣A ∩ B∣
