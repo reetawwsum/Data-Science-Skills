@@ -1,11 +1,14 @@
 Data Science Math Skills
 ========================
 
+Maths is the language of Data Science.
+
 Week 1
 ======
 Building Blocks for Problem Solving
 
 a. Sets and What they're good for
++++++++++++++++++++++++++++++++++
 
 Sets basics and vocabulary:
 --------------------------
@@ -77,3 +80,53 @@ Visualizing Sets
 
 Inclusion-Exclusion Formula:
 ∣A ∪ B∣ = ∣A∣ + ∣B∣ - ∣A ∩ B∣
+
+b. The infinite world of real numbers
++++++++++++++++++++++++++++++++++++++
+
+Numbers: The Real Number Line
+-----------------------------
+Natural Numbers
+Whole Numbers
+Integers
+Rational Numbers
+Irrational Numbers
+Real Numbers
+
+Positive Reals
+Negative Reals
+
+Absolute Value of a real number X, |X| is the distance from X to 0.
+
+In general rule:
+For any x ∈ R
+∣X∣ = { x if x is non-negative
+		-x if x is negative }
+
+Numbers: Less-than and Greater-than
+-----------------------------------
+a < b (a is less than b)
+a > b (a is greater than b)
+a <= b (a is less than or equal to b)
+a >= b (a is greater than or equal to b)
+a << b (a is much much less than b)
+
+Numbers: Algebra with Inequalities
+----------------------------------
+Rules:
+if a = b, then a + c = b + c
+if a = b, then a * c = b * c
+if a < b, then a + c < b + c
+if a < b, then a * c < b * c if c is postive number otherwise a * c > b * c
+
+Numbers: Intervals and Intervals Notation
+-----------------------------------------
+
+Closed Interval:
+[2, 3.1] = {x ∈ R: 2 <= x <= 3.1}
+
+Open Interval:
+(5, 8) = {x ∈ R: 5 < x < 8}
+
+Half Open Interval:
+[1, 10) = {x ∈ R: 1 <= x < 10}
