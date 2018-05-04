@@ -130,3 +130,46 @@ Open Interval:
 
 Half Open Interval:
 [1, 10) = {x ∈ R: 1 <= x < 10}
+
+c. That Jagged S Symbol
++++++++++++++++++++++++
+
+Sigma Notation: Introduction to Summation
+-----------------------------------------
+Σ (Sigma)
+
+Sigma notiation comes with start and end range along with dummy indices in the 
+	notation.
+
+Σ (i = 1 to 4) (i^2) = 1^2 + 2^2 + 3^2 + 4^2 = 30
+
+Sigma Notation: Simplication Rules
+----------------------------------
+Σ (Ki) = K Σ (i) where K is constant
+
+Distributive Property: A(b + c) = Ab + Ac
+
+Σ (i^2 + 2i) = Σ (i^2) + Σ (2i) = Σ (i^2) + 2 Σ (i)
+
+Σ (K) != K but it is Σ (K i^0) = K * range
+
+Sigma Notation: Mean and Variance
+---------------------------------
+X = {x1 x2 ... xn}
+
+Mean (Mu) = 1/n Σ xi
+
+Mean Centering:
+Removing mean from each element, making the mean of the elements to be zero.
+
+Variance: (How spread out the data set)
+Variance = 1/n Σ (xi - Mean)^2
+
+For e.g
+Z = {1, 5, 12} & W = {5, 6, 7}
+Mean (Z) = 6
+Mean (W) = 6
+Variance (Z) = 62/3
+Variance (W) = 2/3
+
+Standard Deviation = sqrt(variance)
