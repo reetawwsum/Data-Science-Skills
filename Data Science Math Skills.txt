@@ -173,3 +173,42 @@ Variance (Z) = 62/3
 Variance (W) = 2/3
 
 Standard Deviation = sqrt(variance)
+
+--------------------------------------------------------------------------------
+
+Week 2
+======
+Functions and Graphs
+
+a. Descartes was really smart
+++++++++++++++++++++++++++++++
+
+Cartesian Plane: Plotting Points
+-------------------------------
+|R^2 (x, y) axis
+
+Origin (0, 0)
+
+X axis = {x, y ∈ |R^2: y = 0}
+Y axis = {x, y ∈ |R^2: x = 0}
+
+First Quadrant: {x, y ∈ |R^2: x > 0, y > 0}
+Second Quadrant: {x, y ∈ |R^2: x < 0, y > 0}
+Third Quadrant: {x, y ∈ |R^2: x < 0, y < 0}
+Fourth Quadrant: {x, y ∈ |R^2: x > 0, y < 0}
+
+Cartesian Plane: Distance Formula
+---------------------------------
+Pythogorean theorm: z^2 = x^2 + y^2
+
+Distance Formula: (a, b) (c, d)
+d = sqrt((c-a)^2 + (d-b)^2)
+
+Nearest Neighbor is the least distance point from a point.
+
+Clustering:
+If A & B are in cluster X, C in cluster Y
+Then Distance (A, B) << Distance (A, C) or Distance(B, C)
+
+Cartesian Plane: Point Slope formula for lines
+----------------------------------------------
