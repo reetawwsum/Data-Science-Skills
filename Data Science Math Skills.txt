@@ -305,3 +305,31 @@ Here, f and g are inverse of each other.
 
 Not every function has an inverse function.
 If a graph of f fails the horizontal line test, then f has no inverse.
+
+--------------------------------------------------------------------------------
+
+Week 3
+======
+Measuring rates of change
+
+a. This is about the derivative stuff
++++++++++++++++++++++++++++++++++++++
+
+Tangent Lines: The Slope of a graph at a point
+----------------------------------------------
+Tangent Line to graph of f(x) at x = A
+Its slope gives rate of change of f(x) at x = A
+
+f'(a) is the derivative of a function f(x) at x = A
+
+f'(a) = lim h->0 (f(a + h) - f(a)) / h
+
+Tangent Lines: The Derivative Function
+--------------------------------------
+f(x) = x^2
+
+f'(x) = lim h->0 ((x + h)^2 - x^2) / h
+	  = lim h->0 ((x^2 + h^2 + 2xh) - x^2) / h
+	  = lim h->0 h(2x + h) / h
+	  = lim h->0 (2x + h)
+	  = 2x
