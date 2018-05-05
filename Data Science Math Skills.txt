@@ -237,3 +237,71 @@ y = x - 1
 
 If a line l has lope M and l hits the y axis at the point (0, b), then
 	y = mx + b is the equation of the line
+
+b. Input Output Machine
++++++++++++++++++++++++
+
+Functions: Mapping from Sets to Sets
+------------------------------------
+A function f: A->B is a rule/formula/machine which transforms each a ∈ b into
+	f(a) ∈ B
+
+For e.g
+X = {All people in VBS study}
+y = {+, -}
+
+Function test: X->y 
+test(person) = +
+test(person) = -
+
+Supervised Learning:
+Input(A) and Output(B) is given (Samples)
+Find function f: A->B
+
+Functions: Graphing in the Cartesian Plane
+------------------------------------------
+f: |R->|R
+For e.g 
+f(x) = 2x - 1
+
+In general, if g: |R -> |R
+the graph of g is graph(g) = {(x, y) ∈ |R^2: y = g(x)}
+
+Vertical Line Test:
+Any line of a graph will touch vertical axis only one time.
+
+Functions: Increasing and Decreasing Functions
+----------------------------------------------
+Let f: |R -> |R
+f is strictly increasing if whenever a < b, we have f(a) < f(b)
+f is strictly decreasing if whenever a < b, we have f(a) > f(b)
+
+Some functions f(x) = x^2 is neither strictly increasing nor decreasing.
+But, these functions are strictly increasing or strictly decreasing in certain
+	intervals.
+
+Horizontal Line Test:
+A function is strictly increasing or decreasing if it intersects horizontal line
+	exactly once.
+
+Functions: Composition and Inverse
+----------------------------------
+f(x) = x^2
+g(x) = x + 5
+
+gof(x) = g(f(x)) = x^2 + 5
+fog(x) = f(g(x)) = (x+5)^2
+
+gof(x) != fog(x)
+
+For e.g
+f(x) = 2x
+g(x) = (1/2)x
+
+gof(x) = g(f(x)) = x
+fog(x) = f(g(x)) = x
+
+Here, f and g are inverse of each other.
+
+Not every function has an inverse function.
+If a graph of f fails the horizontal line test, then f has no inverse.
