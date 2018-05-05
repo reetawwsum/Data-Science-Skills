@@ -333,3 +333,75 @@ f'(x) = lim h->0 ((x + h)^2 - x^2) / h
 	  = lim h->0 h(2x + h) / h
 	  = lim h->0 (2x + h)
 	  = 2x
+
+b. Fast Growth - Slow Growth
+++++++++++++++++++++++++++++
+
+Using Integer Exponents
+-----------------------
+Positive Integer Exponents:
+9 = 3^2 (3 Square)
+27 = 3^3 (3 Cube)
+
+Zero as exponent:
+3^0 = 1
+
+Negative Integer Exponents:
+2^-1 = 1/(2^1)
+2^-2 = 1/(2^2) = 1/4
+
+Scientific Notation:
+5.9 x 10^24
+9.1 x 10^-31
+
+Simplication Rules for Algebra using Exponents
+----------------------------------------------
+a. Multiplication Rule
+x^n x^m = x^(n+m)
+
+b. Power to Power Rule
+(x^n)^m = x^(n*m)
+
+c. Product to Power Rule
+(xy)^n = x^n y^n
+
+d. Fraction to a Power Rule
+(x/y)^n = x^n/y^n
+
+e. Division and Negative Powers
+x^n/x^m = x^(n-m)
+
+Fractional Exponents:
+x^(a/b) = b root of x^a
+
+How Logarithms and Exponents are related
+----------------------------------------
+b^x = N
+x = logb(N)
+
+Logs of any base 1 = 0
+
+a. Product Rule
+log(xy) = log(x) + log(y)
+
+b. Quotient Rule
+log(x/y) = log(x) - log(y)
+
+c. Power & Root Rule
+log(x^h) = h(log(x))
+
+The Change of Base Formula
+--------------------------
+log2(12) = 3.585
+log10(12) = 1.079
+
+loga(b) = logx(b) / logx(a)
+
+The Rate of Growth of Continuous Processes
+------------------------------------------
+Discrete exponential rate of growth
+Continuous exponential rate of growth (e)
+
+e = 2.71828
+
+ln(x) = natural log = log to the base e
