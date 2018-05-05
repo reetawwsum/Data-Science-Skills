@@ -405,3 +405,95 @@ Continuous exponential rate of growth (e)
 e = 2.71828
 
 ln(x) = natural log = log to the base e
+
+--------------------------------------------------------------------------------
+
+Week 4
+======
+Introduction to Probability Theory
+
+a. Basic Probability Definitions
+++++++++++++++++++++++++++++++++
+
+Probability Definitions & Notations
+-----------------------------------
+Certainty at which statement is true.
+
+P(x) + P(~x) = 1
+
+Probability Distribution: All the probability sums upto 1.
+Collection of statements which are exclusive and exhaustive forms the distribution.
+
+P(event) = Number of outcomes defined as in event/Total # of outcomes in universe.
+
+Joint Probabilities
+-------------------
+P(A and B)
+P(A, B) = P(B, A)
+
+Order doesn't matter.
+
+Independent definition:
+P(x, y) = P(x) P(y) (Product Distribution)
+
+P(A or B) = P(A) + P(B) - P(A, B)
+
+b. Problem Solving Methods
+++++++++++++++++++++++++++
+
+Permutations & Combinations
+---------------------------
+Permutations - Order Matters
+Combinations - Order doesn't matter
+
+Permutations: n!/(n-m)!
+Combinations: n!/(n-m)!m! (n choose m)
+
+With replacement & without replacement probability.
+
+Using Factorial and "M choose N"
+--------------------------------
+With replacement experiement are independent experiments.
+
+M choose N: 
+Number of distinct groups of n items drawing from m items without replacement.
+
+The Sum Rule, Conditional Probability, and the Product Rule
+-----------------------------------------------------------
+Probability of individual event = Sum of Joint Probabilities
+
+P(A) = P(A, B) + P(A, ~B)
+P(A) = P(A, B1) + P(A, B2) ... P(A, Bn)
+
+Conditional Probability P(A|B)
+What is probability of A given B is true.
+
+= (Relevant Outcomes) / (Total outcomes in Universe when B is true)
+
+Product Rule:
+P(A|B) = P(A, B) / P(B)
+
+If A & B is independence, then P(A|B) = P(A)
+
+c. Applying Bayes Theorem and the binomial theorem
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Bayes' Theorem (Part 1)
+-----------------------
+P(A|B) = P(B|A) P(A) / P(B)
+
+It is used to get the probability of a process given the outcome.
+
+Bayes' Theorem (Part 2)
+-----------------------
+it is also used to update the probability calculated before.
+
+Posterior Probability = Likelihood * Prior Probability / Marginal Probability
+
+The Binomial Theorem and the Bayes Theorem
+------------------------------------------
+n = number of independent trails
+s = number of successes
+p = probability of 1 success
+
+(n choose s)(p^s)(1-p)^n-s
