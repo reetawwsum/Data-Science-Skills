@@ -80,7 +80,6 @@ Symmetrical Histograms are called Normal Distribution.
 
 Lesson 3: Central Tendency
 --------------------------
-
 Information representing the data:
 a. Mean
 b. Median
@@ -105,3 +104,49 @@ Mean can be misleading in presence of outliers.
 Median: 
 Middle element after sorting the data.
 Median handles outlier nicely. It also exposes them. Hence, they are very robust.
+
+--------------------------------------------------------------------------------
+
+Lesson 4: Variability
+---------------------
+Range as a way of describing variability of the data.
+Range of a distribution quantify the spreadness of the distribution.
+Range = max(sample) - min(sample)
+
+Outlier affects the range of the data.
+
+Quartile: Cutting first 25% and last 25% of data (min, 25%, 50%, 75%, max)
+Q1 Q2 Q3, where Q2 is median
+
+In order to handle outliers, define 
+	Interquartile Range (IQR) = Q3 - Q1
+
+Outlier:
+Q1 - 1.5(IQR) < Outlier < Q3 + 1.5(IQR)
+
+Visualization of Quartile and Outlier:
+Boxplot
+
+Range or IQR doesn't describe variability properly of different distribution
+	differently.
+
+Average Deviation = Σ (xi - x̅) / n
+Average Absolute Deviation = Σ (| xi - x̅ |) / n
+Average Square Deviation(Variance) = Σ (xi - x̅)^2 / n
+Standard Deviation = sqrt(Variance)
+
+Problem with average deviation is that it can turn out to be zero.
+
+What's so great about SD anyway?
+In normal distribution, where mean = mode = median
+68% of data falls under 1 SD of mean.
+95% of data falls under 2 SD of mean.
+
+SD of sample < SD of population, since sample (Normal Distribution) comes from 
+	68% of the data which has low SD.
+
+In order to handle this, we use Bessel's Correction, i.e divide by (n-1) instead
+	of n.
+
+SD of sample: sqrt (Σ (xi - x̅)^2 / n)
+SD of population using sample: sqrt(Σ (xi - x̅)^2 / (n-1))
