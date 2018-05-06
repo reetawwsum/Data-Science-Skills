@@ -46,3 +46,32 @@ Show causation => Controlled experiment
 
 Controlled experiment uses blinding techniques to avoid biases.
 Use random assignment.
+
+--------------------------------------------------------------------------------
+
+Lesson 2: Visualizing Data
+--------------------------
+Organizing data helps in describing data, seeing pattern, and making decisions.
+
+a. Frequency Table:
+Frequency Table is quickist way to organise data into meaningful information.
+
+b. Proportion (Relative Frequency) Table:
+How frequency relates to each other.
+
+c. Percentage Table:
+Proportion * 100
+
+For any frequency table, the relative frequency should add to 1.
+
+For continuous data, intervals(bins) are used for frequency table.
+
+Histogram: (x axis - Numerical)
+Visualizing frequency table of a continuous data.
+
+Bar Graph: (x axis - Categorical)
+Visualzing frequency table of a discrete data.
+
+Frequency table results in loss of data.
+
+Symmetrical Histograms are called Normal Distribution.
