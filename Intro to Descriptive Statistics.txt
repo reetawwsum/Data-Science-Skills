@@ -75,3 +75,33 @@ Visualzing frequency table of a discrete data.
 Frequency table results in loss of data.
 
 Symmetrical Histograms are called Normal Distribution.
+
+--------------------------------------------------------------------------------
+
+Lesson 3: Central Tendency
+--------------------------
+
+Information representing the data:
+a. Mean
+b. Median
+c. Mode
+
+Mode: Highest frequency element in the data.
+Uniform distribution doesn't have a mode.
+A distribution can have more than one mode.
+
+Mode of a sample can be different from the mode of the population, hence it can't
+	be used to learn about population parameter.
+
+Mean (x̅):
+x̅ = Σ x / n (Sample Mean)
+𝝁 = Σ x / N (Population Mean)
+
+The mean of a sample can be used to make inferences about the population it came
+	from.
+
+Mean can be misleading in presence of outliers.
+
+Median: 
+Middle element after sorting the data.
+Median handles outlier nicely. It also exposes them. Hence, they are very robust.
