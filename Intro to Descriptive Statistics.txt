@@ -1,0 +1,48 @@
+Intro to Descriptive Statistics
+===============================
+
+Lesson 1: Intro to Research Methods
+-----------------------------------
+Descriptive Statistics allows to summarize data and shape how to make decisions.
+
+It involves gathering, organizing, computing, and visualizing information from 
+	the dataset.
+
+A good sample size, a representative sample, and a sound methodology are important
+	to conduct a valid research.
+
+Describe your problem statement explicitly (Define Constructs).
+
+A construct is an idea or theory containing various conceptual elements, typically 
+	one considered to be subjective and not based on empirical evidence.
+
+Operational definition makes measuring constructs in real world possible.
+
+Data consists of samples (rows) and variables (columns).
+
+In order to perform research correctly, make everything constant while measuring 
+	one variable. These are called extraneous factors.
+
+Average score of entire population in an experiment: Population Parameter (𝝁)
+Average score of sample in an experiment: Sample Statistic (x̅)
+
+We can predict population parameter using sample statistics, given a good sample.
+
+𝝁 - x̅ = Sampling Error
+
+Bigger the sample, more the sample statistic will be closer to population parameter.
+
+Another way is to draw multiple random samples which will give interval in which
+	population parameter lies.
+
+Plotting samples on a graph:
+Variable on x axis is independent variable.
+Variable on y axis is dependent variable.
+
+Correlation does not prove causation.
+
+Show correlation => Observational studies surveys
+Show causation => Controlled experiment
+
+Controlled experiment uses blinding techniques to avoid biases.
+Use random assignment.
