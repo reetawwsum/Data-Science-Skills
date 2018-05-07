@@ -183,3 +183,23 @@ Making the distribution's mean = 0, S.D = 1
 
 We can convert any normal distribution to any normal distribution.
 Normal Distribution (1) -> Standard Normal Distribution -> Normal Distribution (2)
+
+--------------------------------------------------------------------------------
+
+Lesson 6: Normal Distribution
+-----------------------------
+In a normal distribution, by knowing where on the x axis a value falls, in terms
+	of standard deviation (z score), we can determine the percentage less than
+	or greater than any value.
+
+Area under the normal distribution = 1
+Because it is plotted using relative frequency (proportion).
+Curve is known as Probability Density Function (PDF).
+
+Area under PDF is the probability.
+
+Area = probability of randomly selecting less than x = proportion in sample/population
+	with score less than x.
+
+In order to calculate the proportion from any point to any point in a normal
+	distribution, convert it into standard normal distribution, and use z table.
