@@ -203,3 +203,31 @@ Area = probability of randomly selecting less than x = proportion in sample/popu
 
 In order to calculate the proportion from any point to any point in a normal
 	distribution, convert it into standard normal distribution, and use z table.
+
+--------------------------------------------------------------------------------
+
+Lesson 7: Sampling Distributions
+--------------------------------
+Comparing sample in a population with other samples or whole population.
+Use mean and SD of various samples, and the whole population for comparison.
+
+1. Mean of population (Population Parameter)
+2. Draw sample from population (sample size)
+3. Find mean of the sample
+4. Repeat steps 2 and 3 multiple times > 100
+5. Find mean of sample means (M)
+
+Distribution of sample means will be normal distribution given sample means is of
+	considerable size. This is called sampling distribution.
+
+Properties of sampling distribution:
+1. Mean of population = Mean of sampling distribution.
+2. SD of population (sigma) = sqrt(sample size) * SD of sampling distribution (SE)
+
+In order words: The Central Limit Theorem
+SE(Standard Error) = sigma / sqrt(n)
+
+Sample size = 1 will result in uniform distribution, since there is no sample mean.
+
+Sampling distribution will always be a normal distribution drawn from any type of
+	population distribution.
