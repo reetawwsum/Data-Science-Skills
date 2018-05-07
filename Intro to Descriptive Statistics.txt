@@ -150,3 +150,36 @@ In order to handle this, we use Bessel's Correction, i.e divide by (n-1) instead
 
 SD of sample: sqrt (Σ (xi - x̅)^2 / n)
 SD of population using sample: sqrt(Σ (xi - x̅)^2 / (n-1))
+
+--------------------------------------------------------------------------------
+
+Lesson 5: Standardizing
+-----------------------
+Histogram enables to analyze the shape of the distribution and think critically
+	about the mean, median, and mode of the data.
+
+It also helps in comparing data points.
+
+Histogram with relative frequency is more useful in comparing data points.
+
+Normal Distribution:
+Mean = Median = Mode
+It helps in calculating proportion in between any two data points.
+
+84% of data falls before 1 SD of mean.
+
+Area under normal distribution = 1
+
+Location of each data point is described in terms of SD.
+z-score is the number of standard deviations from the mean a data point is.
+Z score = (x - 𝝁) / SD
+
+Comparing two normal distributions require them to be on a same scale. One way
+	of doing that is to convert them to standard normal distribution.
+
+Standard Normal Distribution:
+Calculating z score for each data point.
+Making the distribution's mean = 0, S.D = 1
+
+We can convert any normal distribution to any normal distribution.
+Normal Distribution (1) -> Standard Normal Distribution -> Normal Distribution (2)
