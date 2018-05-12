@@ -1,3 +1,30 @@
 Intro to Inferential Statistics
 ===============================
 
+Lesson 1: Introduction and Lesson 7 (Intro to Descriptive Statistics) Review
+----------------------------------------------------------------------------
+An approximate answer to the right problem is worth a good deal more than an exact 
+	answer to an approximate problem.
+
+What is Inferential Statistics?
+a. Finding approximate answers
+b. Make predictions about data
+c. Run tests to find the accuracy of the model
+
+Course Overview (Descriptive Statistics):
+a. Research methods and visualizing data
+b. Describing data
+c. Normal Distribution
+
+Course Overview (Inferential Statistics):
+a. Estimation and Hypothesis testing
+b. t-tests and ANOVA
+c. Relationships between two variables
+
+Central Limit Theorem:
+a. Mean of sampling distribution = Mean of population distribution
+b. Relationship of standard deviation of sampling distribution (SE) and standard
+	deviation of population (σ) is given by SE = σ / sqrt(sample size)
+
+Central Limit Theorem helps in determining the probability of randomly selecting
+	a sample with mean at least x.
