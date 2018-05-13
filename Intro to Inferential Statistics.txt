@@ -28,3 +28,43 @@ b. Relationship of standard deviation of sampling distribution (SE) and standard
 
 Central Limit Theorem helps in determining the probability of randomly selecting
 	a sample with mean at least x.
+
+Lesson 2: Estimation
+--------------------
+Point estimation involves the use of sample data to calculate a single value 
+	which is to serve as a "best guess" or "best estimate" of an unknown 
+	population parameter.
+
+Approximately 95% of sample means falls within 2σ/sqrt(n) of the population mean.
+
+Margin of error (Error margin): 2σ/sqrt(n) = 2 * Standard Error (SE)
+where Standard Error is standard deviation of sampling distribution.
+
+In general,
+Error margin = z * Standard Error
+
+Population mean = (sample mean - error margin, sample mean + error margin)
+(95% confidence interval for the mean)
+
+95% of data falls under 2 SD of mean
+95% of data falls under 1.96 SD of mean.
+
+In other words:
+In a sampling distribution, 95% of sample means fall within 1.96 standard errors
+	from the population mean.
+
+Margin of error: 1.96 * σ/sqrt(n) = 1.96 * Standard Error (SE)
+where Standard Error is standard deviation of sampling distribution.
+
+In general, we can say with 95% confidence that
+Point Estimate of population mean = Sample mean
+Interval Estimate of population mean = (sample mean - error margin, 
+										sample mean + error margin)
+ 
+Using z-table:
+98% of sample means falls within 2.33 standard errors from the population mean.
+
++/- 2.33 are the critical values of z for 98% confidence.
++/- 1.96 are the critical values of z for 95% confidence.
+
+Confidence intervals are used for estimating actual population parameters.
