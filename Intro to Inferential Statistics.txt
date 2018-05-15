@@ -79,6 +79,8 @@ Levels of Likelihood (Alpha levels):
 2 .01 (1%)
 3 .001 (0.1%)
 
+Less than alpha levels is usually considered unlikely.
+
 Z-Critical value: Above which the probability of getting a particular sample mean
 	is less than alpha.
 Critical region: Region above Z-Critical value.
@@ -89,3 +91,19 @@ Critical region: Region above Z-Critical value.
 
 For e.g
 z score of 1.82, then sampling mean is significant at p < 0.05
+
+Z score of sample mean is calculated by using sampling distribution as a reference.
+
+Two-tailed critical values at alpha = 0.05 (5%): +/- 1.96, since it got distributed
+	in both the ends equally (2.5% each).
+
+Two-tailed critical values at alpha = 0.01 (1%): +/- 2.57, since it got distributed
+	in both the ends equally (0.5% each).
+
+Two-tailed critical values at alpha = 0.001 (0.1%): +/- 3.32, since it got distributed
+	in both the ends equally (0.05% each).
+
+H0(null hypothesis): Population mean = Sample mean
+Ha(alternative hypothesis): Population mean < Sample mean
+							Population mean > Sample mean
+							Population mean != Sample mean
