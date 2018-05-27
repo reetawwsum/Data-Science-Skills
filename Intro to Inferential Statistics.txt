@@ -29,6 +29,8 @@ b. Relationship of standard deviation of sampling distribution (SE) and standard
 Central Limit Theorem helps in determining the probability of randomly selecting
 	a sample with mean at least x.
 
+--------------------------------------------------------------------------------
+
 Lesson 2: Estimation
 --------------------
 Point estimation involves the use of sample data to calculate a single value 
@@ -68,6 +70,8 @@ Using z-table:
 +/- 1.96 are the critical values of z for 95% confidence.
 
 Confidence intervals are used for estimating actual population parameters.
+
+--------------------------------------------------------------------------------
 
 Lesson 3: Hypothesis testing
 ----------------------------
@@ -147,3 +151,78 @@ Hypothesis testing is prone to misinterpretations:
 
 If we reject the null hypothesis, but it's actually true, then it is type 1 error.
 If we failed to reject the null hypothesis, but it's false, then it is type 2 error.
+
+--------------------------------------------------------------------------------
+
+Lesson 4: t-Tests Part 1
+------------------------
+Z-test (Hypothesis testing) works when we know population parameters (𝝁, σ).
+
+But, when we don't have population parameters, we can still estimate population
+	parameters using samples.
+
+Estimate of population SD using sample SD using Bessel's Correction:
+SD = sqrt(Σ (xi - x̅)^2 / (n-1))
+
+For sampling distribution where SE is not calculated using central limit theorm,
+	it is known as t-distribution.
+
+In general,
+In probability and statistics, Student's t-distribution (or simply the t-distribution) 
+	is any member of a family of continuous probability distributions that arises 
+	when estimating the mean of a normally distributed population in situations 
+	where the sample size is small and population standard deviation is unknown.
+
+The t-distribution is symmetric and bell-shaped, like the normal distribution, 
+	but has heavier tails, meaning that it is more prone to producing values that 
+	fall far from its mean.
+
+For t-distribution, when sample size (n) increases:
+a. SE decreases
+b. t-distribution approaches a normal distribution.
+
+Degrees of Freedom:
+You have n numbers that must sum to 10?
+Degrees of Freedom = n-1
+
+For sampling distribution, if we already know the mean, then there are n-1 degrees
+	of freedom to choose the sample.
+
+For sample size n, degrees of freedom is n-1.
+
+t-table:
+Unlike z-table, t-table tells critical values in the body.
+Column are the area under right tail.
+Rows represents the degrees of freedom.
+On x-axis, we have t-values.
+
+One sample t-test:
+t = (x̅ - 𝝁) / (SE/sqrt(n)) where SE is calculated using Bessel's Correction.
+
+Larger the t-statistics, lower the probability of obtaining t-statistics, larger
+	the difference between sample mean and population mean.
+
+Cohen's d (Effect Size Measure):
+Standardized mean difference that measures the distance between means in standarized
+	units.
+
+In general,
+Cohen's d is defined as the difference between two means divided by a standard 
+	deviation for the data
+
+Cohen's d: (x̅ - 𝝁) / s
+Bigger the Cohen's d, more probability is that sample comes from new distribution.
+
+Confidence Interval: (Sample mean - t-statistic * SE, Sample mean + t-statistic * SE)
+where SE = S / sqrt(n) for t-statistic
+and t-statistic is 2.064 for 95% confidence.
+and t-statistic * SE is also known as margin of error
+
+Dependent t-test for paired samples:
+Within subject designs
+	a. Two conditions
+	b. Pre-test, post-test
+	c. Growth over time
+
+Two samples (xi, yi) corresponds to (di) where di = |xi-yi|, and we use t-tests on d.
+di is used to calculate SE along with Bessel's Correction.
