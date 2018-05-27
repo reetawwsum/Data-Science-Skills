@@ -210,7 +210,7 @@ In general,
 Cohen's d is defined as the difference between two means divided by a standard 
 	deviation for the data
 
-Cohen's d: (x̅ - 𝝁) / s
+Cohen's d: (x̅ - 𝝁) / sd
 Bigger the Cohen's d, more probability is that sample comes from new distribution.
 
 Confidence Interval: (Sample mean - t-statistic * SE, Sample mean + t-statistic * SE)
@@ -226,3 +226,140 @@ Within subject designs
 
 Two samples (xi, yi) corresponds to (di) where di = |xi-yi|, and we use t-tests on d.
 di is used to calculate SE along with Bessel's Correction.
+
+--------------------------------------------------------------------------------
+
+Lesson 5: t-tests Part 2
+------------------------
+Effect Size:
+In experimental studies, it is size of treatment's effect.
+In non-experimental studies, it is refer to strength of relationship between variables.
+
+In z-test and t-test, effect size is calculated using mean difference (x̅ - 𝝁)
+
+Types of effect size measures:
+a. Difference Measures
+	i. Mean difference
+	ii. Standardized differences (Cohen's d)
+b. Correlation measures (r2)
+
+r2: proportion of variation in one variable that is related to (explained by)
+	another variable.
+
+Statistical Significance:
+Rejected the null hypothesis
+Results are not likely due to chance.
+
+Meaningfulness of Results:
+1. What was measured?
+2. Effect Size
+3. Can we rule out random chance?
+4. Can we rule out alternative explanations? (Lurking Variables)
+
+Cohen's d:
+Effect size measure calculated by standardized mean difference.
+
+d = (x̅ - 𝝁) / SD
+
+Correlation measures:
+Coefficient of Determination (r2)
+a. Value ranges from 0-1
+
+In t-tests:
+r2 = t^2 / (t^2 + df)
+where
+t: t-statistics
+df: degree of freedom
+
+Results Selection:
+a. Descriptive Statistics
+	i. in text
+	ii. in graph
+	iii. in tables
+b. Inferential Statistics
+	i. hypothesis test (alpha level)
+		1. kind of test
+		2. test statistic
+		3. df
+		4. p-value
+		5. direction of test
+	ii. Confidence Intervals
+		1. Confidence level
+		2. Lower limit
+		3. Upper limit
+		4. Confidence interval for what?
+	iii. Effect size measures
+		1. Difference measures
+		2. Correlation measures
+
+APA Style for writing inferential statistics result.
+For e.g 
+
+For hypothesis test (t-test):
+t(df) = x.xx, p = 0.xx, direction
+
+For Confidence Interval:
+Confidence interval on asdf difference, P% CI = (x, y)
+
+Full one-sample t-test:
+U.S families spent an average of 151 dollars per week on food in 2012.
+Food Now company wants to reduce spent per week by introducing cost saving programs.
+They found average spent for 25 people having standard deviation 50 is 126.
+How significant is their cost saving programs?
+
+What is the dependent variable?
+Amount of money spent per week on food.
+
+What is the treatment?
+Cost saving program
+
+What is the null hypothesis?
+The program did not change the cost of food.
+
+What is the alternative hypothesis?
+The program reduced the cost of food.
+
+Ho: 𝝁(program) >= 151
+Ha: 𝝁(program) < 151
+
+What type of test?
+one tailed in -ve direction
+
+Degrees of freedom for sample size (25)
+df = n - 1 = 24
+
+tcritical at alpha = 0.05 for -ve one tailed test
+-1.711
+
+SE = SD / sqrt(n) = 50 / sqrt(25) = 10
+
+Metrics:
+Mean Difference = -25
+Compute t-statistic:
+t-statistic = mean difference / SE = -25/10 = -2.5
+
+Draw the t-distribution
+Place tcritical on distribution
+Shade critical region
+Place t-statistic on t-distribution
+
+Does t falls in critical region?
+Yes
+
+What is p value of t?
+p < .05
+p = .00985 = 0.01
+
+Are these results statistically significant?
+Yes
+
+Are the results meaningful?
+It depends
+
+Cohen's d = -0.050
+
+r2 = .21 = 21%
+It shows that 21% is due to cost saving program.
+
+Compute margin of error for 95% CI = 20.64
+Compute the 95% CI for the mean = (105.36, 146.64)
