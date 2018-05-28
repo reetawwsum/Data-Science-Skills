@@ -363,3 +363,61 @@ It shows that 21% is due to cost saving program.
 
 Compute margin of error for 95% CI = 20.64
 Compute the 95% CI for the mean = (105.36, 146.64)
+
+--------------------------------------------------------------------------------
+
+Lesson 6: t-test Part 3
+-----------------------
+Dependent Samples (Repeated Measure):
+Within subject designs
+a. Two conditions
+b. Longitudinal
+c. Pre-test, Post-test
+
+Advantages:
+a. Controls for individual differences
+	i. Use fewer subjects
+	ii. Cost effective
+	iii. Less time-consuming
+	iv. Less expensive
+
+Disadvantages:
+a. Carry over effects
+b. Order may influence the results
+
+Independent Samples:
+Between subject designs
+a. Experimental
+b. Observational
+
+For two independent samples:
+N(𝝁1, σ1) - N(𝝁2 - σ2) = N(𝝁1 - 𝝁2, sqrt(σ1^2 + σ2^2))
+where N is normal distribution
+
+In general,
+Subtract two normally distributed samples:
+SD = sqrt(SD1^2 + SD2^2)
+and SE = SD / sqrt(n)
+
+For different samples sizes,
+SE = sqrt(SD1^2/n1 + SD2^2/n2)
+
+Above SE assumes samples are approximately the same size.
+
+Also, degree of freedom (df) = (n1-1) + (n2-1) = n1+n2-2
+or use smaller of n1-1 or n2-1
+
+t-statistic = 𝝁1 - 𝝁2 / SE
+
+Confidence Interval: (𝝁1 - 𝝁2 +/- Error margin)
+where Error margin = tcritical * SE
+
+Pooled Variance:
+Sp^2 = (SS1 + SS2) / (df1 + df2)
+where SS is sum of squares of deviations
+
+One can use pooled variance to calculate SE, i.e
+SE = sqrt(Sp^2/n1 + Sp^2/n2)
+
+In general, use pooled variance while calculating SE for t-statistic for independent
+	samples.
