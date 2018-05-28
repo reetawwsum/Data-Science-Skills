@@ -421,3 +421,68 @@ SE = sqrt(Sp^2/n1 + Sp^2/n2)
 
 In general, use pooled variance while calculating SE for t-statistic for independent
 	samples.
+
+--------------------------------------------------------------------------------
+
+Lesson 7: One-Way ANOVA
+-----------------------
+In order to test significance difference between two samples use t-statistics.
+But in order to test significance between multiple samples n, we have to do
+	(n C 2) = n choose 2 t-tests
+
+In general,
+t-statistic = distance or variability between means / error
+
+In order to compare three or more samples, find Grand Mean:
+Variability between samples is calculated using average squared deviation of each
+	sample mean from the total mean.
+
+For equal sample sizes:
+Grand mean = mean of sample means = mean of all values
+
+For unequal sample sizes:
+Grand mean != mean of sample means
+
+Between-group variability:
+The smaller the distance between sample means, the less likely population means
+	will differ significantly.
+The greater the distance between sample means, the more likely population means
+	will differ significantly.
+
+Within-group variability:
+The greater the variability of each individual sample, the less likely population
+	means will differ significantly.
+The smaller the variability of each individual sample, the more likely population
+	means will differ significantly.
+
+Analysis of Variance (ANOVA)
+One-way ANOVA when we have only one independent variable.
+
+Ho: 𝝁1 = 𝝁2 = 𝝁3 ... = 𝝁n
+Ha: At least one pair of samples is significantly different
+
+F = between-group variability / within-group variability
+
+between-group variability = Σ n (x̅k - x̅g)^2 / k-1
+where
+n = Sample Size
+x̅ = Sample Mean
+x̅g = Grand Mean
+
+within-group variability = Σ (xi - x̅k)^2 / (N-k)
+where N is total number of values from all samples
+k is the number of samples
+
+F = (SS(between) / df(between)) / (SS(within) / df(within)) = MS(between) / MS(within)
+Also,
+SS(between) + SS(within) = SS(total)
+df(between) + df(within) = df(total)
+
+where SS is sum of squares
+F-statistic is never negative.
+F test is always non-directional.
+
+alpha level with F-critical value to get the confidence of significance.
+
+F-Table:
+Different F-table for different alpha levels.
