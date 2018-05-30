@@ -539,3 +539,57 @@ We can violate these assumptions:
 a. Sample size is large - violate normality
 b. Nearly equal sample sizes and ratio of any two variance does not exceed 4
 	- violate homogeneity of variance.
+
+--------------------------------------------------------------------------------
+
+Lesson 9: Correlation
+---------------------
+With two variables:
+a. Different design:
+	i. How we collect our data
+	ii. How we visualize our data
+b. Analysis is similar
+
+X: Predictor, explanatory, independent variable
+Y: Outcome, response, dependent variable
+
+How to show two variables have a relationship?
+Scatter Plot
+
+A strong relationship has direction.
+If independent variable increases, so does dependent variable, then it is known
+	as positive direction relationship.
+If independent variable increases, but dependent variable decreases, then it is 
+	known as negative direction relationship.
+
+Relationship = correlation in statistics
+
+Quantify relationship with Correlation Coefficient (r) (Pearson's r)
+
+r = cov(x, y) / Sx . Sy
+where cov is covariance
+Sx = SD of x
+Sy = SD of y
+
+Coefficient of Determination:
+r2 = % of the variation in Y explained by the variation in X.
+
+Hypothesis testing for correlation coefficient:
+r = correlation coefficient of samples
+rho = true correlation of population
+
+Ho: rho = 0
+Ha: rho >!=< 0
+
+Use t-statistic to reject or fail to reject the null hypothesis.
+t = r * sqrt(N-2) / sqrt(1-r^2)
+df = N-2
+
+Use confidence Interval for correlation coefficient to get whether you have 0
+	correlation coefficent, thus using it as hypothesis tesing.
+
+Outlier affects the correlation coefficient.
+
+Correlation does not prove causation.
+
+Ambiguous temporal precedence between two vaiables makes causation hard to prove.
