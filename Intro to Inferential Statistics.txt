@@ -576,10 +576,10 @@ r2 = % of the variation in Y explained by the variation in X.
 
 Hypothesis testing for correlation coefficient:
 r = correlation coefficient of samples
-rho = true correlation of population
+𝜌 (rho) = true correlation of population
 
-Ho: rho = 0
-Ha: rho >!=< 0
+Ho: 𝜌 = 0
+Ha: 𝜌 >!=< 0
 
 Use t-statistic to reject or fail to reject the null hypothesis.
 t = r * sqrt(N-2) / sqrt(1-r^2)
@@ -593,3 +593,65 @@ Outlier affects the correlation coefficient.
 Correlation does not prove causation.
 
 Ambiguous temporal precedence between two vaiables makes causation hard to prove.
+
+--------------------------------------------------------------------------------
+
+Lesson 10: Regression
+---------------------
+Line of best fits
+a. describe the data
+b. make predictions
+
+Observed values from actual data (y)
+Expected values from regression model (y^)
+
+Difference between observed and expected is residual.
+
+Regression line:
+y^ = mx + c
+where m is slope and c is intercept.
+
+y^ = a + bx
+
+How to find the line of best fine?
+Minimize the sum of residuals
+Minimize the sum of absolute residuals
+Minimize the sum of squared residuals
+
+Σ (y - y^)^2
+
+Also,
+b = r * (Sy / Sx)
+
+Regression line always go through (x̅, y̅)
+y̅ = a + r * (Sy / Sx) * x̅
+For above, get a
+
+In linear regression models,
+For 1 unit change in x variable, there is a change of slope units in y variable.
+
+Error in model:
+Standard error of the estimate = sqrt (Σ y - y^)^2 / N-2)
+
+Confidence interval for y, and slope.
+
+Hypothesis testing for slope:
+β1 = population slope
+βo = population y-intercept
+b = sample slope
+a = sample y-intercept
+
+Ho: β1 = 0
+Ha: β1 >!=< 0
+
+Use t-test for reject or fail to reject the null hypothesis.
+df = N-2
+
+Factors that affect simple linear regression:
+a. Outliers
+
+Multiple Regression:
+y = a + bx1 + cx2 .. mxn
+where b, c, ... m are known as regression coefficients.
+
+Finding the significance of regression coefficients.
