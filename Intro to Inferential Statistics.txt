@@ -655,3 +655,51 @@ y = a + bx1 + cx2 .. mxn
 where b, c, ... m are known as regression coefficients.
 
 Finding the significance of regression coefficients.
+
+--------------------------------------------------------------------------------
+
+Lesson 11: 𝞆^2 (Chi-squared) Test
+---------------------------------
+z-test
+t-test
+ANOVA (f-test)
+Correlation
+Regression
+
+All above parametric tests requires numerical data.
+
+Types of numerical data:
+a. Ordinal data: data with rank
+b. Interval data: data with ranks and equal intervals
+c. Ratio: data with ranks, equal intervals, and absolute zero
+d. Nominal/Categorical
+
+Non-parametric tests (𝞆^2 test):
+These tests doesn't require mean, SD
+
+How well do our observed frequencies "fit" the expected frequencies?
+𝞆^2 Goodness-of-Fit Test
+
+𝞆^2 = Σ (fo - fe)^2 / fe
+where fo is observed frequency
+fe is expected frequency
+
+𝞆^2 is smaller when expected values are closer to observed values.
+𝞆^2 is never negative, hence one-directional.
+
+𝞆^2 critical value
+
+The more categories, the more likely we'll get a larger 𝞆^2 statistic.
+With more categories, 𝞆^2 is larger and therefore we need a higher critical value
+	to reject the null hypothesis.
+
+df = n-1 where n is number of categories
+
+Chi-Square test for Independence.
+
+Effect Size:
+Cramer's V = sqrt(𝞆^2 / n (k-1))
+
+Assumptions and Restrictions:
+a. Avoid dependent observations
+b. Avoid small expected frequencies (large n)
