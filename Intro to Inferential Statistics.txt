@@ -486,3 +486,56 @@ alpha level with F-critical value to get the confidence of significance.
 
 F-Table:
 Different F-table for different alpha levels.
+
+--------------------------------------------------------------------------------
+
+Lesson 8: ANOVA Continued
+-------------------------
+ANOVA shows at least one pair of samples is significantly different, but in order
+	to find which one, additional testing is required.
+
+Multiple Comparison Tests: (Tukey's Honestly Significant Difference (HSD))
+To perform pair wise comparison after rejecting the null hypothesis in ANOVA.
+
+Tukey's HSD = q * sqrt(MS(within) / n) = q * (Sp / sqrt(n))
+where q is Studentized Range Statistic
+
+In order to find q value, look at q table.
+
+For any pair of sample means, if it is greater than Tukey' HSD value then, it is
+	significantly different.
+
+Effect Size measure:
+Cohen's d: In case of independent sample t-statistic
+d = (x̅1 - x̅2) / Sp
+where Sp is pooled standard deviation
+
+For more than two samples: Compute for all samples
+d = (x̅i - x̅j) / (MS(within))
+
+Eta Square:
+η^2 = proportion of total variation that is due to between-group differences
+	(explained variations)
+
+	= SS(between) / SS(total)
+
+η^2 ranges from 0 to 1.
+
+ANOVA with different sample sizes:
+SS(between) = Σ nk (x̅k - x̅g)^2
+
+In order to reduce type 2 errors, increase power:
+a. Get more samples
+b. Samples should be similar
+c. Larger samples results in higher power.
+d. Lower within-group variability leads to higher power.
+
+ANOVA assumptions:
+All the samples comes from normal distribution. 
+Homogeneity of variance
+Independence of observations
+
+We can violate these assumptions:
+a. Sample size is large - violate normality
+b. Nearly equal sample sizes and ratio of any two variance does not exceed 4
+	- violate homogeneity of variance.
